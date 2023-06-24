@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "General";
+  src: url("/fonts/GeneralSans-Semibold.otf");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+table {
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px 10px;
+  margin: 0px;
+  min-width: 80px;
+}
+
+.my-collectionTree-container.my-collectionTree-root {
+  margin-top: 1.5rem;
+}
+
+#__primerPortalRoot__ {
+  z-index: 100;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px; /* height of horizontal scrollbar */
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c1c1c1;
+  border: 2px solid #c1c1c1;
+  border-radius: 10px;
+}
